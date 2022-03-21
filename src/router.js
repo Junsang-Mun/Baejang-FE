@@ -1,14 +1,17 @@
-import Vue from "vue";
-import VueRouter from "vue-router";
-import Main from "./pages/Main.vue";
+import {createWebHistory, createRouter} from "vue-router";
+import Main from './pages/Main.vue'
 
-Vue.use(VueRouter);
+const routes = [{
+    path: '/',
+    redirect: '/home'
+  },{
+    path: '/home',
+    component: Main
+}];
 
-const router = new VueRouter({
-    mode: "history",
-    routes: [{
-            path:"/",
-            component: Main, 
-        },
-    ]
+const router = createRouter({
+    history: createWebHistory(),
+    routes
 });
+
+export default router;
