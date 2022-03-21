@@ -1,6 +1,8 @@
 <template>
   <Header />
-  <Main />
+  <div id="content" class="content">
+    <ronter-view></ronter-view>
+  </div>
 </template>
 
 <script>
