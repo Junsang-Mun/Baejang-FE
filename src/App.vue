@@ -2,7 +2,7 @@
 <template>
   <Header />
   <div id="content" class="content">
-    <ronter-view></ronter-view>
+    <router-view></router-view>
   </div>
 </template>
 
