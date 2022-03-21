@@ -1,5 +1,6 @@
 import {createWebHistory, createRouter} from "vue-router";
 import Main from './pages/Main.vue'
+import Rsvp from './pages/Rsvp.vue'
 
 const routes = [{
     path: '/',
@@ -7,6 +8,9 @@ const routes = [{
   },{
     path: '/home',
     component: Main
+  },{
+    path: '/rsvp',
+    component: Rsvp
 }];
 
 const router = createRouter({
