@@ -26,8 +26,5 @@ export default {
   -ms-user-select: none;
   user-select: none;
   scrollbar-width: none;
-
-  text-align: center;
-  color: #2c3e50;
 }
 </style>
