@@ -10,7 +10,7 @@
             </p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
             <a type="button" class="btn btn-warning btn-lg px-4 me-md-2" href="/rsvp">더 알아보기</a>
-            <a type="button" class="btn btn-outline-secondary btn-lg px-4" href="/rsvp">배움장터 예약하기</a>
+            <a type="button" class="btn btn-secondary btn-lg px-4" href="/rsvp">배움장터 예약하기</a>
           </div>
         </div>
       </div>
