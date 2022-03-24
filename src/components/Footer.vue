@@ -19,7 +19,7 @@
     <p class="col-md-4 mb-0 text-muted">© 2022 Junsang Mun. All Rights Reserved.</p>
 
     <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+      <img src="https://cdn.imweb.me/thumbnail/20200601/d48e7392c3b9b.png" style="height:80px"/>
     </a>
 
     <ul class="nav col-md-4 justify-content-end">
